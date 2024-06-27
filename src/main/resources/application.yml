@@ -1,0 +1,13 @@
+DATABASE_URL: jdbc:h2:mem:h2mem;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+DATABASE_USER: test
+DATABASE_PASSWORD: test
+
+spring:
+  application:
+    name: compid
+  datasource:
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+    url: ${DATABASE_URL}
+    flyway:
+      enabled: false
