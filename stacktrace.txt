@@ -1,0 +1,520 @@
+C:\Users\martin\.jdks\semeru-21.0.2\bin\java.exe -ea -Dspring.profiles.active=test -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\lib\idea_rt.jar=56192:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\plugins\junit\lib\junit-rt.jar;C:\A\IdeaProjects\compid\target\test-classes;C:\A\IdeaProjects\compid\target\classes;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.3.1\spring-boot-starter-actuator-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.1\spring-boot-starter-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot\3.3.1\spring-boot-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.1\spring-boot-autoconfigure-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.1\spring-boot-starter-logging-3.3.1.jar;C:\Users\martin\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\martin\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\martin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\martin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\martin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\martin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\martin\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.3.1\spring-boot-actuator-autoconfigure-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-actuator\3.3.1\spring-boot-actuator-3.3.1.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\martin\.m2\repository\io\micrometer\micrometer-observation\1.13.1\micrometer-observation-1.13.1.jar;C:\Users\martin\.m2\repository\io\micrometer\micrometer-commons\1.13.1\micrometer-commons-1.13.1.jar;C:\Users\martin\.m2\repository\io\micrometer\micrometer-jakarta9\1.13.1\micrometer-jakarta9-1.13.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.1\spring-boot-starter-data-jpa-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.1\spring-boot-starter-aop-3.3.1.jar;C:\Users\martin\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.1\spring-boot-starter-jdbc-3.3.1.jar;C:\Users\martin\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\martin\.m2\repository\org\springframework\spring-jdbc\6.1.10\spring-jdbc-6.1.10.jar;C:\Users\martin\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\martin\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\martin\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\martin\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\martin\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\martin\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\martin\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\martin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\martin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\martin\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\martin\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\martin\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\martin\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\martin\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\martin\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\martin\.m2\repository\org\springframework\data\spring-data-jpa\3.3.1\spring-data-jpa-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\data\spring-data-commons\3.3.1\spring-data-commons-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-orm\6.1.10\spring-orm-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-beans\6.1.10\spring-beans-6.1.10.jar;C:\Users\martin\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\martin\.m2\repository\org\springframework\spring-aspects\6.1.10\spring-aspects-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-client\3.3.1\spring-boot-starter-oauth2-client-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-config\6.3.1\spring-security-config-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-core\6.3.1\spring-security-core-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-crypto\6.3.1\spring-security-crypto-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-expression\6.1.10\spring-expression-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-oauth2-client\6.3.1\spring-security-oauth2-client-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-oauth2-core\6.3.1\spring-security-oauth2-core-6.3.1.jar;C:\Users\martin\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.43.4\oauth2-oidc-sdk-9.43.4.jar;C:\Users\martin\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\martin\.m2\repository\com\nimbusds\content-type\2.2\content-type-2.2.jar;C:\Users\martin\.m2\repository\com\nimbusds\lang-tag\1.7\lang-tag-1.7.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-oauth2-jose\6.3.1\spring-security-oauth2-jose-6.3.1.jar;C:\Users\martin\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.37.3\nimbus-jose-jwt-9.37.3.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-resource-server\3.3.1\spring-boot-starter-oauth2-resource-server-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-oauth2-resource-server\6.3.1\spring-security-oauth2-resource-server-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-quartz\3.3.1\spring-boot-starter-quartz-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-context-support\6.1.10\spring-context-support-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-tx\6.1.10\spring-tx-6.1.10.jar;C:\Users\martin\.m2\repository\org\quartz-scheduler\quartz\2.3.2\quartz-2.3.2.jar;C:\Users\martin\.m2\repository\com\mchange\mchange-commons-java\0.2.15\mchange-commons-java-0.2.15.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.3.1\spring-boot-starter-security-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-aop\6.1.10\spring-aop-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-web\6.3.1\spring-security-web-6.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.3.1\spring-boot-starter-validation-3.3.1.jar;C:\Users\martin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.25\tomcat-embed-el-10.1.25.jar;C:\Users\martin\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\martin\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.1\spring-boot-starter-web-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.1\spring-boot-starter-json-3.3.1.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.1\jackson-module-parameter-names-2.17.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.1\spring-boot-starter-tomcat-3.3.1.jar;C:\Users\martin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.25\tomcat-embed-core-10.1.25.jar;C:\Users\martin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.25\tomcat-embed-websocket-10.1.25.jar;C:\Users\martin\.m2\repository\org\springframework\spring-web\6.1.10\spring-web-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-webmvc\6.1.10\spring-webmvc-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-webflux\3.3.1\spring-boot-starter-webflux-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-reactor-netty\3.3.1\spring-boot-starter-reactor-netty-3.3.1.jar;C:\Users\martin\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.1.20\reactor-netty-http-1.1.20.jar;C:\Users\martin\.m2\repository\io\netty\netty-codec-http\4.1.111.Final\netty-codec-http-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-common\4.1.111.Final\netty-common-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-buffer\4.1.111.Final\netty-buffer-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-transport\4.1.111.Final\netty-transport-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-codec\4.1.111.Final\netty-codec-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-handler\4.1.111.Final\netty-handler-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-codec-http2\4.1.111.Final\netty-codec-http2-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-resolver-dns\4.1.111.Final\netty-resolver-dns-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-resolver\4.1.111.Final\netty-resolver-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-codec-dns\4.1.111.Final\netty-codec-dns-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.111.Final\netty-resolver-dns-native-macos-4.1.111.Final-osx-x86_64.jar;C:\Users\martin\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.111.Final\netty-resolver-dns-classes-macos-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.111.Final\netty-transport-native-epoll-4.1.111.Final-linux-x86_64.jar;C:\Users\martin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.111.Final\netty-transport-native-unix-common-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.111.Final\netty-transport-classes-epoll-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.1.20\reactor-netty-core-1.1.20.jar;C:\Users\martin\.m2\repository\io\netty\netty-handler-proxy\4.1.111.Final\netty-handler-proxy-4.1.111.Final.jar;C:\Users\martin\.m2\repository\io\netty\netty-codec-socks\4.1.111.Final\netty-codec-socks-4.1.111.Final.jar;C:\Users\martin\.m2\repository\org\springframework\spring-webflux\6.1.10\spring-webflux-6.1.10.jar;C:\Users\martin\.m2\repository\io\projectreactor\reactor-core\3.6.7\reactor-core-3.6.7.jar;C:\Users\martin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\martin\.m2\repository\org\flywaydb\flyway-core\10.10.0\flyway-core-10.10.0.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-toml\2.17.1\jackson-dataformat-toml-2.17.1.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\martin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\martin\.m2\repository\org\springframework\kafka\spring-kafka\3.2.1\spring-kafka-3.2.1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-context\6.1.10\spring-context-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-messaging\6.1.10\spring-messaging-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\retry\spring-retry\2.0.6\spring-retry-2.0.6.jar;C:\Users\martin\.m2\repository\org\apache\kafka\kafka-clients\3.7.0\kafka-clients-3.7.0.jar;C:\Users\martin\.m2\repository\com\github\luben\zstd-jni\1.5.5-6\zstd-jni-1.5.5-6.jar;C:\Users\martin\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\martin\.m2\repository\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar;C:\Users\martin\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.5.0\springdoc-openapi-starter-webmvc-ui-2.5.0.jar;C:\Users\martin\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.5.0\springdoc-openapi-starter-webmvc-api-2.5.0.jar;C:\Users\martin\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.5.0\springdoc-openapi-starter-common-2.5.0.jar;C:\Users\martin\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.21\swagger-core-jakarta-2.2.21.jar;C:\Users\martin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\martin\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.21\swagger-annotations-jakarta-2.2.21.jar;C:\Users\martin\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.21\swagger-models-jakarta-2.2.21.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.1\jackson-dataformat-yaml-2.17.1.jar;C:\Users\martin\.m2\repository\org\webjars\swagger-ui\5.13.0\swagger-ui-5.13.0.jar;C:\Users\martin\.m2\repository\net\logstash\logback\logstash-logback-encoder\7.4\logstash-logback-encoder-7.4.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\martin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\martin\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\martin\.m2\repository\io\micrometer\micrometer-registry-prometheus\1.13.1\micrometer-registry-prometheus-1.13.1.jar;C:\Users\martin\.m2\repository\io\micrometer\micrometer-core\1.13.1\micrometer-core-1.13.1.jar;C:\Users\martin\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\martin\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-core\1.2.1\prometheus-metrics-core-1.2.1.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-model\1.2.1\prometheus-metrics-model-1.2.1.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-config\1.2.1\prometheus-metrics-config-1.2.1.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-tracer-common\1.2.1\prometheus-metrics-tracer-common-1.2.1.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-exposition-formats\1.2.1\prometheus-metrics-exposition-formats-1.2.1.jar;C:\Users\martin\.m2\repository\io\prometheus\prometheus-metrics-shaded-protobuf\1.2.1\prometheus-metrics-shaded-protobuf-1.2.1.jar;C:\Users\martin\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\martin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\martin\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.1\spring-boot-starter-test-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-test\3.3.1\spring-boot-test-3.3.1.jar;C:\Users\martin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.1\spring-boot-test-autoconfigure-3.3.1.jar;C:\Users\martin\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\martin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\martin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\martin\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\martin\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\martin\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\martin\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\martin\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\martin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\martin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\martin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\martin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\martin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\martin\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\martin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.17\byte-buddy-agent-1.14.17.jar;C:\Users\martin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\martin\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\martin\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\martin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\martin\.m2\repository\org\springframework\spring-core\6.1.10\spring-core-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-jcl\6.1.10\spring-jcl-6.1.10.jar;C:\Users\martin\.m2\repository\org\springframework\spring-test\6.1.10\spring-test-6.1.10.jar;C:\Users\martin\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\martin\.m2\repository\org\springframework\security\spring-security-test\6.3.1\spring-security-test-6.3.1.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\martin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\martin\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\martin\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\martin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\martin\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\martin\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\martin\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\martin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\martin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\martin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\martin\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\martin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\martin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\martin\.m2\repository\io\cucumber\cucumber-spring\7.18.0\cucumber-spring-7.18.0.jar" com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 com.example.MyApplicationTest
+17:29:52.096 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.MyApplicationTest]: MyApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:29:52.263 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.MyApplication for test class com.example.MyApplicationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-06-27T17:29:52.845+02:00  INFO 11884 --- [compid] [           main] com.example.MyApplicationTest            : Starting MyApplicationTest using Java 21.0.2 with PID 11884 (started by martin in C:\A\IdeaProjects\compid)
+2024-06-27T17:29:52.848+02:00  INFO 11884 --- [compid] [           main] com.example.MyApplicationTest            : The following 1 profile is active: "test"
+2024-06-27T17:29:54.621+02:00  INFO 11884 --- [compid] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-27T17:29:54.750+02:00  INFO 11884 --- [compid] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
+2024-06-27T17:29:55.935+02:00  INFO 11884 --- [compid] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-06-27T17:29:55.956+02:00  INFO 11884 --- [compid] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-27T17:29:55.957+02:00  INFO 11884 --- [compid] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-27T17:29:56.051+02:00  INFO 11884 --- [compid] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-27T17:29:56.052+02:00  INFO 11884 --- [compid] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3172 ms
+2024-06-27T17:29:56.577+02:00  INFO 11884 --- [compid] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-27T17:29:56.823+02:00  INFO 11884 --- [compid] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:h2mem user=TEST
+2024-06-27T17:29:56.827+02:00  INFO 11884 --- [compid] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-27T17:29:56.875+02:00  INFO 11884 --- [compid] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:h2mem (H2 2.2)
+2024-06-27T17:29:56.889+02:00  WARN 11884 --- [compid] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024-06-27T17:29:56.908+02:00  INFO 11884 --- [compid] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table "public"."flyway_schema_history" does not exist yet
+2024-06-27T17:29:56.910+02:00  INFO 11884 --- [compid] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.008s)
+2024-06-27T17:29:56.910+02:00  WARN 11884 --- [compid] [           main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2024-06-27T17:29:56.920+02:00  INFO 11884 --- [compid] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "public"."flyway_schema_history" ...
+2024-06-27T17:29:56.968+02:00  INFO 11884 --- [compid] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2024-06-27T17:29:56.975+02:00  INFO 11884 --- [compid] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2024-06-27T17:29:57.128+02:00  INFO 11884 --- [compid] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-27T17:29:57.211+02:00  INFO 11884 --- [compid] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-27T17:29:57.256+02:00  INFO 11884 --- [compid] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-27T17:29:57.652+02:00  INFO 11884 --- [compid] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-27T17:29:59.045+02:00 ERROR 11884 --- [compid] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+2024-06-27T17:29:59.046+02:00  WARN 11884 --- [compid] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+2024-06-27T17:29:59.046+02:00  INFO 11884 --- [compid] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-27T17:29:59.051+02:00  INFO 11884 --- [compid] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-27T17:29:59.056+02:00  INFO 11884 --- [compid] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-27T17:29:59.087+02:00  INFO 11884 --- [compid] [           main] .s.b.a.l.ConditionEvaluationReportLogger :
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-27T17:29:59.118+02:00 ERROR 11884 --- [compid] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.10.jar:6.1.10]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.10.jar:6.1.10]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:522) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:512) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:740) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:739) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 93 common frames omitted
+Caused by: java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:144) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.execute(MappingModelCreationProcess.java:88) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.process(MappingModelCreationProcess.java:42) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:199) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.initializeMappingModel(SessionFactoryImpl.java:371) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.10.jar:6.1.10]
+	... 97 common frames omitted
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:273) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.AbstractEmbeddableMapping.finishInitialization(AbstractEmbeddableMapping.java:392) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.finishInitialization(VirtualIdEmbeddable.java:223) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.lambda$new$0(VirtualIdEmbeddable.java:67) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		... 107 common frames omitted
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.finishInitialization(EmbeddableMappingTypeImpl.java:490) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.lambda$from$0(EmbeddableMappingTypeImpl.java:126) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		... 107 common frames omitted
+
+
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-06-27T17:29:59.140+02:00  WARN 11884 --- [compid] [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.MyApplicationTest@2ffd6364]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3f551e45 testClass = com.example.MyApplicationTest, locations = [], classes = [com.example.MyApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@b232249e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1ed8fac5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@f0800fb, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@105f440, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@a3c37954, org.springframework.boot.test.context.SpringBootTestAnnotation@2bb714ed], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:522) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:512) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:740) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:739) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.10.jar:6.1.10]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.10.jar:6.1.10]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.1.jar:3.3.1]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.10.jar:6.1.10]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.10.jar:6.1.10]
+	... 72 common frames omitted
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 93 common frames omitted
+Caused by: java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:144) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.execute(MappingModelCreationProcess.java:88) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.process(MappingModelCreationProcess.java:42) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:199) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.initializeMappingModel(SessionFactoryImpl.java:371) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.10.jar:6.1.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.10.jar:6.1.10]
+	... 97 common frames omitted
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:273) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.AbstractEmbeddableMapping.finishInitialization(AbstractEmbeddableMapping.java:392) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.finishInitialization(VirtualIdEmbeddable.java:223) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.lambda$new$0(VirtualIdEmbeddable.java:67) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		... 107 common frames omitted
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.finishInitialization(EmbeddableMappingTypeImpl.java:490) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.lambda$from$0(EmbeddableMappingTypeImpl.java:126) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+		... 107 common frames omitted
+
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3f551e45 testClass = com.example.MyApplicationTest, locations = [], classes = [com.example.MyApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@b232249e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1ed8fac5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@f0800fb, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@105f440, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@a3c37954, org.springframework.boot.test.context.SpringBootTestAnnotation@2bb714ed], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:522)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:512)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:740)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:739)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 17 more
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 38 more
+Caused by: java.lang.IllegalStateException: PostInitCallback queue could not be processed...
+        - PostInitCallbackEntry - VirtualIdEmbeddable(com.example.contract.Partner#{id})#finishInitialization
+        - PostInitCallbackEntry - EmbeddableMappingType(com.example.contract.Partner)#finishInitialization
+
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:144)
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.execute(MappingModelCreationProcess.java:88)
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.process(MappingModelCreationProcess.java:42)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:199)
+	at org.hibernate.internal.SessionFactoryImpl.initializeMappingModel(SessionFactoryImpl.java:371)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 42 more
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456)
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34)
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26)
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162)
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44)
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54)
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:273)
+		at org.hibernate.metamodel.mapping.internal.AbstractEmbeddableMapping.finishInitialization(AbstractEmbeddableMapping.java:392)
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.finishInitialization(VirtualIdEmbeddable.java:223)
+		at org.hibernate.metamodel.mapping.internal.VirtualIdEmbeddable.lambda$new$0(VirtualIdEmbeddable.java:67)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106)
+		... 52 more
+	Suppressed: org.hibernate.PropertyNotFoundException: Could not locate field name [personNumber] on class [com.example.contract.Partner]
+		at org.hibernate.internal.util.ReflectHelper.findField(ReflectHelper.java:456)
+		at org.hibernate.property.access.internal.PropertyAccessFieldImpl.<init>(PropertyAccessFieldImpl.java:34)
+		at org.hibernate.property.access.internal.PropertyAccessStrategyFieldImpl.buildPropertyAccess(PropertyAccessStrategyFieldImpl.java:26)
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.buildPropertyAccess(EmbeddableRepresentationStrategyPojo.java:162)
+		at org.hibernate.metamodel.internal.AbstractEmbeddableRepresentationStrategy.<init>(AbstractEmbeddableRepresentationStrategy.java:44)
+		at org.hibernate.metamodel.internal.EmbeddableRepresentationStrategyPojo.<init>(EmbeddableRepresentationStrategyPojo.java:54)
+		at org.hibernate.metamodel.internal.ManagedTypeRepresentationResolverStandard.resolveStrategy(ManagedTypeRepresentationResolverStandard.java:156)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.<init>(EmbeddableMappingTypeImpl.java:162)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.from(EmbeddableMappingTypeImpl.java:112)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationHelper.buildEmbeddedAttributeMapping(MappingModelCreationHelper.java:318)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.finishInitialization(EmbeddableMappingTypeImpl.java:490)
+		at org.hibernate.metamodel.mapping.internal.EmbeddableMappingTypeImpl.lambda$from$0(EmbeddableMappingTypeImpl.java:126)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess$PostInitCallbackEntry.process(MappingModelCreationProcess.java:246)
+		at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.executePostInitCallbacks(MappingModelCreationProcess.java:106)
+		... 52 more
+
+
+Process finished with exit code -1
